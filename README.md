@@ -23,12 +23,11 @@ In the file directory, enter:
 
 $ ./scheduler <scheduler mode>
 ```
-with ./ord <mode of scheduler>
-mode of scheduler:
-	 + 0 = defferable server
-	 + 1 = EDF
-	 + 2 = Static Priority
-	 + 3 = Round Robin
+with ```<mode of scheduler>```:
+* 0 = defferable server
+* 1 = EDF
+* 2 = Static Priority
+* 3 = Round Robin
 
 ## 4. RQ
 The preemptivity is not 'real' because the scheduler is called at each step. So it work as if (indeed if nothing from the last ste the scheduler wil choose the same task) but it is not.
